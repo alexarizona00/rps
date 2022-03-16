@@ -30,11 +30,11 @@ if (playerChoice == 'ROCK') {
     }
     else if (finalAttack == 'PAPER') {
         alert("You have lost")
-      
+        location.reload()
     }
     else if (finalAttack == "SCISSORS") {
         alert("you have won!")
-      
+        location.reload()
     }
 }
 if (playerChoice == 'PAPER') {
@@ -44,11 +44,11 @@ if (playerChoice == 'PAPER') {
     }
     else if (finalAttack == 'SCISSORS') {
         alert("You have lost")
-      
+        location.reload()
     }
     else if (finalAttack == "ROCK") {
         alert("you have won!")
-      
+        location.reload()
     }
 } if (playerChoice == 'SCISSORS') {
     if (finalAttack == 'SCISSORS') {
@@ -57,10 +57,10 @@ if (playerChoice == 'PAPER') {
     }
     else if (finalAttack == 'ROCK') {
         alert("You have lost")
-      
+        location.reload()
     }
     else if (finalAttack == "PAPER") {
         alert("you have won!")
-      
+        location.reload()
     }
 }
